@@ -1,0 +1,65 @@
+@font-face {
+  font-family: ProductSans;
+  src: url(../assets//fonts/ProductSansRegular.ttf);
+}
+
+#navbar {
+  height: 9.5vh !important;
+  background-color: rgb(17, 13, 23);
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border-bottom: 1px solid rgb(1, 4, 9) !important;
+  padding-left: 2em !important;
+}
+
+#nexalab-logo {
+  width: 100px !important;
+  height: 100px !important;
+  box-sizing: border-box !important;
+}
+
+#nav-links {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: ProductSans, sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 13.5px !important;
+  color: #ffffff !important;
+  width: 610px !important;
+  background-color: rgb(17, 13, 23);
+}
+
+/*                                            Ant Design Modifying CSS                                     */
+
+.ant-menu-item-active {
+  background: none !important;
+}
+
+.ant-menu-item-selected {
+  background: none !important;
+  color: #f2f3f5 !important;
+  position: relative !important;
+}
+
+@keyframes widthOfSelectItem {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/*                                            Media Queries                                     */
+
+@media (max-width: 375px) {
+  #nexalab-logo {
+    width: 155.25px !important;
+    height: 155.25px !important;
+  }
+}

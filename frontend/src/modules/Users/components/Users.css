@@ -1,0 +1,93 @@
+#users-layout {
+    background: #ffffff !important;
+    width: 250px !important;
+    height: 99vh !important;
+    padding-top: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    border-right: 0.3px solid #ececec !important;
+  }
+  
+  .user-image {
+    width: 30px !important;
+    height: 30px !important;
+    /* border: 2px solid green !important; */
+    border-radius: 50% !important;
+    box-sizing: border-box !important;
+    outline: 2px solid green !important;
+  }
+  
+  .user-data-container {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    padding-left: 39px !important;
+    padding-right: 20px !important;
+    width: 95% !important;
+    height: 50px !important;
+    background: transparent !important;
+    cursor: pointer !important;
+    border-radius: 10px !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .user-data-container:hover {
+    background: rgba(45, 136, 255, 0.1) !important;
+  }
+  
+  .user-data-container:active {
+    background: rgba(45, 136, 255, 0.3) !important;
+  }
+  .user-name {
+    font-family: Lato, Poppins, Muli, sans-serif;
+    font-size: 15px !important;
+    font-weight: 549 !important;
+    margin-left: 12.5px !important;
+    color: black !important;
+  }
+  
+  #user-admin-chats-heading {
+    width: fit-content !important;
+  }
+  
+  #users-layout-chat-heading-container {
+    width: 100% !important;
+    padding-left: 50px !important;
+    margin-bottom: 10px !important;
+  }
+  
+  #chat-search {
+    background: #f0f2f5 !important;
+    width: 85% !important;
+    height: 40px !important;
+    margin-bottom: 30px !important;
+    border-radius: 22px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    padding-left: 20px !important;
+  }
+  
+  #search-input {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    margin-left: 15px !important;
+    border-radius: 22px !important;
+    box-sizing: border-box !important;
+    width: 80% !important;
+  }
+  
+  .progress-animation {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
